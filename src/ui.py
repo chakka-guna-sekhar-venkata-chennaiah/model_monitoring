@@ -123,7 +123,7 @@ def display_header(project_name: Text, period: Text, report_name: Text) -> None:
     <style>
         .glowing-text {
             font-family: 'Arial Black', sans-serif;
-            font-size: 40px;
+            font-size: 38px;
             text-align: center;
             animation: glowing 2s infinite;
         }
