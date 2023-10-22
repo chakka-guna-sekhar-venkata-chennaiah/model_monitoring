@@ -142,8 +142,8 @@ def display_header(project_name: Text, period: Text, report_name: Text) -> None:
     dates_range: Text = period_dir_to_dates_range(period)
     # Display the glowing text using st.markdown
     st.markdown(glowing_text_style, unsafe_allow_html=True)
-    st.markdown(f'<p class="glowing-text">💼 Project: {project_name.title()}</p>', unsafe_allow_html=True)
-
+    st.markdown(f'<p class="glowing-text">📊 Real-Time Model Monitoring 💹</p>', unsafe_allow_html=True)
+    st.info(f"Project: {project_name.title()}")
     #st.markdown(f"<div align='center'><h1>💼 Project: {project_name}<h1></div>",unsafe_allow_html=True)
     st.info(f"Report: {report_name}")
     st.info(f"Period: {dates_range}")
